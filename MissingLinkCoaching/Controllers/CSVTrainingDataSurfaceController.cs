@@ -10,13 +10,13 @@ using Umbraco.Core.Models;
 using Umbraco.Core.Media;
 using Umbraco.Web.Mvc;
 using Umbraco.Web;
-using MissingLinkCoaching.Models.MissingLinkCoaching.Models;
+using MissingLinkCoaching.Models;
 
 namespace MissingLinkCoaching.Controllers
 {
     public class CSVTrainingDataSurfaceController : Controller
     {
-        public ActionResult CSVTrainingPlan(CSVTrainingPlanModel model)
+        public ActionResult CSVTrainingPlan(Models.MissingLinkCoaching.Models.CSVTrainingPlanModel model)
         {
             List<String> trainingPlanIDs = new List<String>();
             UmbracoHelper uHelper = new UmbracoHelper(UmbracoContext.Current);
@@ -36,7 +36,6 @@ namespace MissingLinkCoaching.Controllers
             
             return PartialView("_testView", null);
         }
-
     }
 }
 
