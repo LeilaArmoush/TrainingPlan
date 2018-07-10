@@ -1,118 +1,61 @@
-﻿ 2018-07-03 20:48:28,331 [P10896/D3/T183] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username leila.armoush.1990@gmail.com from IP address ::1
- 2018-07-03 20:48:28,332 [P10896/D3/T183] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: leila.armoush.1990@gmail.com logged in from IP address ::1
- 2018-07-03 21:09:55,174 [P10896/D3/T189] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
- 2018-07-03 21:09:55,176 [P10896/D3/T189] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 2ms)
- 2018-07-03 21:09:55,176 [P10896/D3/T189] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.HealthCheck.HealthCheck
- 2018-07-03 21:09:55,283 [P10896/D3/T189] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.HealthCheck.HealthCheck (took 106ms)
- 2018-07-03 21:19:11,286 [P10896/D3/T142] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2018-07-02 21:19:11
- 2018-07-03 21:29:18,257 [P10896/D3/T6] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: leila.armoush.1990@gmail.com, IP Address: ::1
- 2018-07-03 21:29:19,247 [P10896/D3/T146] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: leila.armoush.1990@gmail.com, IP Address: ::1
- 2018-07-03 21:31:31,531 [P10896/D3/T123] INFO  Umbraco.Core.Security.UmbracoMembershipProviderBase - Login attempt failed for username leila.armoush.1990@gmail.com from IP address ::1, the user does not exist
- 2018-07-03 21:31:31,549 [P10896/D3/T123] INFO  Umbraco.Web.Mvc.UmbracoPageResult - Executing Umbraco RouteDefinition controller
- 2018-07-03 21:31:31,601 [P10896/D3/T123] INFO  Umbraco.Web.Mvc.UmbracoPageResult - Finished (took 52ms)
- 2018-07-03 21:31:38,678 [P10896/D3/T119] INFO  Umbraco.Core.Security.UmbracoMembershipProviderBase - Login attempt failed for username test2 from IP address ::1
- 2018-07-03 21:31:38,841 [P10896/D3/T119] INFO  Umbraco.Web.Mvc.UmbracoPageResult - Executing Umbraco RouteDefinition controller
- 2018-07-03 21:31:38,845 [P10896/D3/T119] INFO  Umbraco.Web.Mvc.UmbracoPageResult - Finished (took 3ms)
- 2018-07-03 21:31:49,954 [P10896/D3/T66] INFO  Umbraco.Core.Security.UmbracoMembershipProviderBase - Login attempt succeeded for username test2 from IP address ::1
- 2018-07-03 21:31:50,948 [P10896/D3/T6] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
-System.Web.Mvc.HttpAntiForgeryException (0x80004005): The provided anti-forgery token was meant for user "", but the current user is "test2".
-   at System.Web.Helpers.AntiXsrf.TokenValidator.ValidateTokens(HttpContextBase httpContext, IIdentity identity, AntiForgeryToken sessionToken, AntiForgeryToken fieldToken)
-   at System.Web.Helpers.AntiXsrf.AntiForgeryWorker.Validate(HttpContextBase httpContext)
-   at System.Web.Mvc.ControllerActionInvoker.InvokeAuthorizationFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor)
-   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__19(AsyncCallback asyncCallback, Object asyncState)
-   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.Begin(AsyncCallback callback, Object state, Int32 timeout)
-   at System.Web.Mvc.Async.AsyncControllerActionInvoker.BeginInvokeAction(ControllerContext controllerContext, String actionName, AsyncCallback callback, Object state)
-   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1c(AsyncCallback asyncCallback, Object asyncState, ExecuteCoreState innerState)
-   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallBeginDelegate(AsyncCallback callback, Object callbackState)
-   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.Begin(AsyncCallback callback, Object state, Int32 timeout)
-   at System.Web.Mvc.Controller.BeginExecuteCore(AsyncCallback callback, Object state)
-   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.Begin(AsyncCallback callback, Object state, Int32 timeout)
-   at System.Web.Mvc.Controller.BeginExecute(RequestContext requestContext, AsyncCallback callback, Object state)
-   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__4(AsyncCallback asyncCallback, Object asyncState, ProcessRequestState innerState)
-   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallBeginDelegate(AsyncCallback callback, Object callbackState)
-   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.Begin(AsyncCallback callback, Object state, Int32 timeout)
-   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
-   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
-   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
-   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
- 2018-07-03 21:34:45,622 [P10896/D3/T63] INFO  Umbraco.Core.Security.UmbracoMembershipProviderBase - Login attempt succeeded for username test2 from IP address ::1
- 2018-07-03 21:34:54,048 [P10896/D3/T63] INFO  Umbraco.Web.Mvc.UmbracoPageResult - Executing Umbraco RouteDefinition controller
- 2018-07-03 21:34:54,055 [P10896/D3/T63] INFO  Umbraco.Web.Mvc.UmbracoPageResult - Finished (took 7ms)
- 2018-07-03 21:35:00,867 [P10896/D3/T120] INFO  Umbraco.Core.Security.UmbracoMembershipProviderBase - Login attempt succeeded for username test2 from IP address ::1
- 2018-07-03 21:35:16,843 [P10896/D3/T56] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
-System.Web.HttpCompileException (0x80004005): c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\2a82dc69\41d8dde9\App_Web__testview.cshtml.89207646.4dzirxho.0.cs(43): error CS0234: The type or namespace name 'MissingLinkCoaching' does not exist in the namespace 'MissingLinkCoaching.Models' (are you missing an assembly reference?)
-   at System.Web.Compilation.AssemblyBuilder.Compile()
-   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
-   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
-   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
-   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
-   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
-   at System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
-   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
-   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
-   at System.Web.Mvc.Html.PartialExtensions.Partial(HtmlHelper htmlHelper, String partialViewName, Object model, ViewDataDictionary viewData)
-   at ASP._Page_Views_testTemplate_cshtml.Execute() in c:\MissingLinkCoaching\MissingLinkCoaching\Views\testTemplate.cshtml:line 7
-   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
-   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
-   at System.Web.WebPages.StartPage.ExecutePageHierarchy()
-   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
-   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
-   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
-   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
-   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
-   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
-   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
-   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
-   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
-   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
-   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
-   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
-   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
-   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
-   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
-   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
-   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
-   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
-   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
-   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
-   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
- 2018-07-03 21:35:17,108 [P10896/D3/T138] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username leila.armoush.1990@gmail.com from IP address ::1
- 2018-07-03 21:35:17,110 [P10896/D3/T138] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: leila.armoush.1990@gmail.com logged in from IP address ::1
- 2018-07-03 21:37:14,382 [P10896/D3/T138] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
-System.Web.HttpCompileException (0x80004005): c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\2a82dc69\41d8dde9\App_Web__testview.cshtml.89207646.yaao6gph.0.cs(43): error CS0234: The type or namespace name 'MissingLinkCoaching' does not exist in the namespace 'MissingLinkCoaching.Models' (are you missing an assembly reference?)
-   at System.Web.Compilation.AssemblyBuilder.Compile()
-   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
-   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
-   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
-   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
-   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
-   at System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
-   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
-   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
-   at System.Web.Mvc.Html.PartialExtensions.Partial(HtmlHelper htmlHelper, String partialViewName, Object model, ViewDataDictionary viewData)
-   at ASP._Page_Views_testTemplate_cshtml.Execute() in c:\MissingLinkCoaching\MissingLinkCoaching\Views\testTemplate.cshtml:line 7
-   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
-   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
-   at System.Web.WebPages.StartPage.ExecutePageHierarchy()
-   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
-   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
-   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
-   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
-   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
-   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
-   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
-   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
-   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
-   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
-   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
-   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
-   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
-   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
-   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
-   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
-   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
-   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
-   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
-   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
-   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
- 2018-07-03 21:37:16,375 [P10896/D3/T211] INFO  Umbraco.Core.Security.UmbracoMembershipProviderBase - Login attempt succeeded for username test2 from IP address ::1
+﻿ 2018-07-10 19:19:18,742 [P13572/D3/T162] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2018-07-09 19:19:18
+ 2018-07-10 20:57:26,235 [P13572/D3/T163] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-07-10 20:57:26,241 [P13572/D3/T163] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 4ms)
+ 2018-07-10 20:57:26,243 [P13572/D3/T163] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController
+ 2018-07-10 20:57:26,285 [P13572/D3/T163] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController (took 43ms)
+ 2018-07-10 20:57:26,908 [P13572/D3/T38] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-07-10 20:57:26,908 [P13572/D3/T38] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 1ms)
+ 2018-07-10 20:57:26,909 [P13572/D3/T38] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IAction
+ 2018-07-10 20:57:26,925 [P13572/D3/T38] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IAction (took 14ms)
+ 2018-07-10 20:57:47,740 [P13572/D3/T166] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username leila.armoush.1990@gmail.com from IP address ::1
+ 2018-07-10 20:57:47,745 [P13572/D3/T166] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: leila.armoush.1990@gmail.com logged in from IP address ::1
+ 2018-07-10 20:57:49,558 [P13572/D3/T162] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-07-10 20:57:49,559 [P13572/D3/T162] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 1ms)
+ 2018-07-10 20:57:49,559 [P13572/D3/T162] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.ITree
+ 2018-07-10 20:57:49,575 [P13572/D3/T162] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.ITree (took 17ms)
+ 2018-07-10 20:57:49,637 [P13572/D3/T162] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-07-10 20:57:49,642 [P13572/D3/T162] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-07-10 20:57:49,642 [P13572/D3/T162] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController
+ 2018-07-10 20:57:49,643 [P13572/D3/T162] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController (took 0ms)
+ 2018-07-10 20:57:49,656 [P13572/D3/T162] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-07-10 20:57:49,657 [P13572/D3/T162] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-07-10 20:57:49,657 [P13572/D3/T162] INFO  Umbraco.Core.PluginManager - Resolving [umbraco.businesslogic.TreeAttribute]umbraco.interfaces.ITree
+ 2018-07-10 20:57:49,676 [P13572/D3/T162] INFO  Umbraco.Core.PluginManager - Resolved [umbraco.businesslogic.TreeAttribute]umbraco.interfaces.ITree (took 19ms)
+ 2018-07-10 20:57:49,743 [P13572/D3/T162] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-07-10 20:57:49,743 [P13572/D3/T162] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-07-10 20:57:49,743 [P13572/D3/T162] INFO  Umbraco.Core.PluginManager - Resolving [umbraco.businesslogic.ApplicationAttribute]umbraco.interfaces.IApplication
+ 2018-07-10 20:57:49,763 [P13572/D3/T162] INFO  Umbraco.Core.PluginManager - Resolved [umbraco.businesslogic.ApplicationAttribute]umbraco.interfaces.IApplication (took 19ms)
+ 2018-07-10 20:58:20,571 [P13572/D3/T168] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2018-07-10 20:58:21,004 [P13572/D3/T168] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
+ 2018-07-10 20:58:21,021 [P13572/D3/T166] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2018-07-10 20:58:21,072 [P13572/D3/T166] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
+ 2018-07-10 20:58:21,127 [P13572/D3/T168] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
+ 2018-07-10 20:58:21,127 [P13572/D3/T166] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
+ 2018-07-10 20:58:21,158 [P13572/D3/T160] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
+ 2018-07-10 20:58:21,158 [P13572/D3/T166] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
+ 2018-07-10 20:58:21,195 [P13572/D3/T160] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2018-07-10 21:13:50,526 [P13572/D3/T169] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2018-07-10 21:13:50,528 [P13572/D3/T169] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2018-07-10 21:13:50,615 [P13572/D3/T172] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2018-07-10 21:13:50,656 [P13572/D3/T169] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2018-07-10 21:13:50,657 [P13572/D3/T169] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2018-07-10 21:13:50,659 [P13572/D3/T178] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2018-07-10 21:13:50,677 [P13572/D3/T169] INFO  Umbraco.Core.MainDom - Stopping...
+ 2018-07-10 21:13:50,699 [P13572/D3/T169] INFO  Umbraco.Web.ExamineStartup - Examine shutting down
+ 2018-07-10 21:13:50,713 [P13572/D3/T169] INFO  Umbraco.Web.ExamineStartup - Complete (took 14ms)
+ 2018-07-10 21:13:50,715 [P13572/D3/T169] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2018-07-10 21:13:50,715 [P13572/D3/T169] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [InstructionProcessing] Terminating
+ 2018-07-10 21:13:50,716 [P13572/D3/T169] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [InstructionProcessing] Waiting for tasks to complete
+ 2018-07-10 21:13:50,716 [P13572/D3/T169] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2018-07-10 21:13:50,717 [P13572/D3/T169] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2018-07-10 21:13:50,717 [P13572/D3/T169] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier] Terminating
+ 2018-07-10 21:13:50,717 [P13572/D3/T169] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier] Waiting for tasks to complete
+ 2018-07-10 21:13:50,718 [P13572/D3/T169] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier] Tasks completed, terminated
+ 2018-07-10 21:13:50,718 [P13572/D3/T169] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2018-07-10 21:13:50,719 [P13572/D3/T169] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2018-07-10 21:13:50,719 [P13572/D3/T169] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2018-07-10 21:13:50,719 [P13572/D3/T169] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2018-07-10 21:13:50,720 [P13572/D3/T163] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2018-07-10 21:13:50,717 [P13572/D3/T166] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [InstructionProcessing] Tasks completed, terminated
+ 2018-07-10 21:13:50,721 [P13572/D3/T160] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2018-07-10 21:13:50,722 [P13572/D3/T15] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated

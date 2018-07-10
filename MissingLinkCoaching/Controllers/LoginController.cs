@@ -25,14 +25,8 @@ namespace MissingLinkCoaching.Controllers
                 if (Membership.ValidateUser(model.Name, model.Password))
                 {
                     FormsAuthentication.SetAuthCookie(model.Name, false);
-                    UrlHelper myHelper = new UrlHelper(HttpContext.Request.RequestContext);
-                    if (myHelper.IsLocalUrl(returnUrl))
                     {
-                        return Redirect(returnUrl);
-                    }
-                    else
-                    {
-                        return Redirect("/login/");
+                        return Redirect("/memberdashboard/");
                     }
                 }
                 else
