@@ -1,1 +1,9 @@
-﻿
+﻿table{
+    width: 100%;
+}
+
+th{
+    width: 14.2%;
+    text-align: center;
+    border: 1px solid grey;
+}

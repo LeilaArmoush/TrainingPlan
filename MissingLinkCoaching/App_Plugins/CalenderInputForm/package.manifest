@@ -6,6 +6,7 @@
       "editor": {
         "valueType": "TEXT",
         "view": "~/App_Plugins/CalenderInputForm/app.html"
+      }
     }
   ],
       "css": [
