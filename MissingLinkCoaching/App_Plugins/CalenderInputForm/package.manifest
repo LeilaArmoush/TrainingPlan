@@ -1,0 +1,17 @@
+﻿{
+  "propertyEditors": [
+    {
+      "name": "CalenderInputForm",
+      "alias": "calenderInputForm",
+      "editor": {
+        "valueType": "TEXT",
+        "view": "~/App_Plugins/CalenderInputForm/app.html"
+    }
+  ],
+      "css": [
+        "~/App_Plugins/CalenderInputForm/app.css"
+      ],
+      "javascript": [
+        "~/App-Plugins/CalenderInputForm/app.js"
+      ]
+}
