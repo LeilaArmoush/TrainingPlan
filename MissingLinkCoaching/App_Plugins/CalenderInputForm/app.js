@@ -1,8 +1,6 @@
-﻿angular.module('umbraco').controller('calenderInputFormController', function ($scope) {
+﻿angular.module('umbraco').controller('CalenderInputFormController', function ($scope) {
 
     console.log("hi there");
-    $scope.expandCell = function () {
-        console.log("ouch");
-
+   
     }
 });
