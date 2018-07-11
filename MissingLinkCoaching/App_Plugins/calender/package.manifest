@@ -1,7 +1,7 @@
 ﻿{
   "propertyEditors": [
     {
-      "name": "Calender",
+      "name": "CalenderInputForm",
       "alias": "calender",
       "editor": {
         "valueType": "TEXT",
