@@ -13,6 +13,6 @@
         "~/App_Plugins/CalenderInputForm/app.css"
       ],
       "javascript": [
-        "~/App-Plugins/CalenderInputForm/app.js"
+        "~/App-Plugins/CalenderInputForm/calenderInputForm.controller.js"
       ]
 }

@@ -323,7 +323,9 @@
   <ItemGroup>
     <Content Include="App_Plugins\CalenderInputForm\app.css" />
     <Content Include="App_Plugins\CalenderInputForm\app.html" />
-    <Content Include="App_Plugins\CalenderInputForm\app.js" />
+    <Content Include="App_Plugins\CalenderInputForm\calenderInputForm.controller.js" />
+    <Content Include="App_Plugins\MarkDownEditor\markdown.controller.js" />
+    <Content Include="App_Plugins\MarkDownEditor\markdowneditor.html" />
     <Content Include="App_Plugins\ModelsBuilder\modelsbuilder.controller.js" />
     <Content Include="App_Plugins\ModelsBuilder\modelsbuilder.htm" />
     <Content Include="App_Plugins\ModelsBuilder\modelsbuilder.resource.js" />
@@ -382,6 +384,7 @@
     <Content Include="config\applications.config" />
     <Content Include="config\404handlers.config" />
     <Content Include="App_Plugins\CalenderInputForm\package.manifest" />
+    <Content Include="App_Plugins\MarkDownEditor\package.manifest" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
