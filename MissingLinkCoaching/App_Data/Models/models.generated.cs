@@ -19,7 +19,7 @@ using Umbraco.ModelsBuilder;
 using Umbraco.ModelsBuilder.Umbraco;
 
 [assembly: PureLiveAssembly]
-[assembly:ModelsBuilderAssembly(PureLive = true, SourceHash = "31bd01d00f8620ca")]
+[assembly:ModelsBuilderAssembly(PureLive = true, SourceHash = "edcfa8d13d08f20b")]
 [assembly:System.Reflection.AssemblyVersion("0.0.0.1")]
 
 namespace Umbraco.Web.PublishedContentModels
@@ -486,6 +486,24 @@ namespace Umbraco.Web.PublishedContentModels
 		public static PublishedPropertyType GetModelPropertyType<TValue>(Expression<Func<Member, TValue>> selector)
 		{
 			return PublishedContentModelUtility.GetModelPropertyType(GetModelContentType(), selector);
+		}
+
+		///<summary>
+		/// test
+		///</summary>
+		[ImplementPropertyType("test")]
+		public object Test
+		{
+			get { return this.GetPropertyValue("test"); }
+		}
+
+		///<summary>
+		/// testeditor
+		///</summary>
+		[ImplementPropertyType("testeditor")]
+		public IHtmlString Testeditor
+		{
+			get { return this.GetPropertyValue<IHtmlString>("testeditor"); }
 		}
 
 		///<summary>

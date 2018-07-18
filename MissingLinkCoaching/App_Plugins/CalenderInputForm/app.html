@@ -1,2 +1,78 @@
-﻿<div ng-controller="CalenderInputForm.CalenderInputFormController">
-</div>
+﻿<div ng-controller="CalenderInputForm.CalenderInputFormController" class="wmd-panel">
+    <table>
+        <tr>
+            <th>Mon</th>
+            <th>Tues</th>
+            <th>Wed</th>
+            <th>Thurs</th>
+            <th>Fri</th>
+            <th>Sat</th>
+            <th>Sun</th>
+
+        </tr>
+        <tr rowspan ="2">
+            <td>
+                <input type="text" ng-model="model.value" class="wmd-input" id="wmd-input-{{model.alias}}" />
+
+                <!--<select ng-model="model.value" ng-options="item.ID as item.Title for item in items"></select>-->
+                <select>
+                    <option value="000001">Chicago</option>
+                    <option value="000002">New York</option>
+                    <option value="000003">Washington</option>
+                </select>
+
+            </td>
+            <td>" "</td>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>" "</td>
+            <td>" "</td>
+            <td>" "</td>
+            <td>" "</td>
+            <td>" "</td>
+            <td>" "</td>
+            <td>" "</td>
+        </tr>
+        <tr>
+            <td>" "</td>
+            <td>" "</td>
+            <td>" "</td>
+            <td>" "</td>
+            <td>" "</td>
+            <td>" "</td>
+            <td>" "</td>
+        </tr>
+        <tr>
+            <td>" "</td>
+            <td>" "</td>
+            <td>" "</td>
+            <td>" "</td>
+            <td>" "</td>
+            <td>" "</td>
+            <td>" "</td>
+        </tr>
+        <tr>
+            <td>" "</td>
+            <td>" "</td>
+            <td>" "</td>
+            <td>" "</td>
+            <td>" "</td>
+            <td>" "</td>
+            <td>" "</td>
+        </tr>
+        <tr>
+            <td>" "</td>
+            <td>" "</td>
+            <td>" "</td>
+            <td>" "</td>
+            <td>" "</td>
+            <td>" "</td>
+            <td>" "</td>
+        </tr>
+    </table>
+</div> 
